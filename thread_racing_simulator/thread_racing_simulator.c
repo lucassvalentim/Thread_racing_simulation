@@ -11,7 +11,7 @@
 */
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
-int ready = 1;
+int ready = 0;
 bool stop_flag = false;
 
 void * print_thread_id(void *idArg){
