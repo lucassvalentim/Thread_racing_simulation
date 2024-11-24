@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <pthread.h>
 
-#define N 10
+#define N 5
 
 /*
     global definitions for controlling critical regions and launching threads
